@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Fututre 2026</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-logo">
+        <img src="./logo/logo.svg" alt="" />
+        <h4>Digital Future 2026</h4>
+      </div>
+
+      <button class="burger-menu" id="burgerMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="header-mobile-wrapper" id="headerWrapper">
+        <nav class="header-nav">
+          <a href="#about">О событии</a>
+          <a href="#directions">Направления</a>
+          <a href="#register">Регистрация</a>
+        </nav>
+      </div>
+      <a href="#register" class="head-btn">Принять участие</a>
+    </header>
+
+    <section class="hero">
+      <img src="./img/hero-block.png" alt="" />
+      <div class="hero-content">
+        <h1>Digital Future 2026</h1>
+        <p>
+          Главный технологический хакатон года. Создай проект будущего за 48
+          часов.
+        </p>
+
+        <div class="hero-info">
+          <span>15-17 июня</span>
+          <span>Online</span>
+        </div>
+        <button class="hero-btn" id="heroBtn">Зарегистрироваться</button>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="about-content">
+        <h3>О событии</h3>
+        <h2>О хакатоне</h2>
+
+        <div class="background"></div>
+        <img src="./logo/logo.svg" alt="logo" class="about-image" />
+      </div>
+      <div class="about-text">
+        <p>
+          Digital Future — это интенсивный 48-часовой марафон, где разработчики,
+          дизайнеры и аналитики объединяются для создания инновационных
+          ИТ-продуктов, которые могут изменить мир.
+        </p>
+        <p>
+          Участников ждут реальные кейсы от индустриальных партнёров, менторская
+          поддержка, полезные знакомства и призы для победителей.
+        </p>
+      </div>
+    </section>
+
+    <section id="directions" class="directions">
+      <div class="dir-content">
+        <h3>Направления</h3>
+        <h2>Направления хакатона</h2>
+        <hr />
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <img src="./icons/svg_prog.svg" alt="" />
+          <h2>Программирование</h2>
+          <p>
+            Разработка веб-приложений, мобильных сервисов и API. Создавай
+            масштабные решения.
+          </p>
+        </div>
+
+        <div class="card">
+          <img src="./icons/svg_devops.svg" alt="" />
+          <h2>Сетевые технологии</h2>
+          <p>
+            Инфраструктура, безопасность и автоматизация. Построение надёжных и
+            надёжных систем будущего.
+          </p>
+        </div>
+
+        <div class="card">
+          <img src="./icons/svg_ai.svg" alt="" />
+          <h2>Искусственный интеллект</h2>
+          <p>
+            Машинное обучение, нейросети и обработка данных. Создание умных
+            продуктов, которые упрощают реальность.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="register" class="register">
+      <div class="background-register"></div>
+
+      <h3>Регистрация</h3>
+      <div class="form">
+        <h2>Данные участника</h2>
+        <div class="input-wrapper">
+          <input type="text" placeholder="Имя" />
+        </div>
+
+        <div class="input-wrapper">
+          <input type="text" placeholder="Фамилия" />
+        </div>
+        <div class="input-wrapper has-icon">
+          <img
+            class="input-icon icon-email"
+            src="./icons/email_svg.svg"
+            alt=""
+          />
+          <input type="email" placeholder="Email" />
+        </div>
+        <div class="input-wrapper git has-icon">
+          <img class="input-icon icon-git" src="./icons/git_svg.svg" alt="" />
+          <input type="url" placeholder="Ссылка на GitHub" />
+        </div>
+        <button class="register-btn">Зарегистрироваться</button>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-top">
+        <div class="footer-logo">
+          <img src="./logo/logo.svg" alt="" />
+          <h4>Digital Future 2026</h4>
+        </div>
+
+        <nav class="footer-nav">
+          <a href="#about">О событии</a>
+          <a href="#directions">Направления</a>
+          <a href="#register">Регистрация</a>
+        </nav>
+      </div>
+
+      <hr class="footer-line" />
+
+      <div class="footer-bottom">
+        <p>© DigitalFuture2026. Все права защищены</p>
+      </div>
+    </footer>
+
+    <script src="./js/java-script.js"></script>
+  </body>
+</html>

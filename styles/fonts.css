@@ -1,0 +1,14 @@
+@font-face {
+  font-family: Source-Code;
+  src: url(/fonts/SourceCodePro-Bold.ttf);
+}
+
+@font-face {
+  font-family: Sansation;
+  src: url(/fonts/Sansation-Regular.ttf);
+}
+
+@font-face {
+  font-family: Krona-One;
+  src: url("/fonts/KronaOne-Regular.ttf") format("truetype");
+}
